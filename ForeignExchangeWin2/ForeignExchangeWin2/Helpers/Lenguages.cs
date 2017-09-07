@@ -29,5 +29,77 @@
         {
             get { return Resource.Title; }
         }
+        public static string AmountNumericValidation
+        {
+            get { return Resource.AmountNumericValidation; }
+        }
+        public static string SourceRateValidation
+        {
+            get { return Resource.SourceRateValidation; }
+        }
+        public static string TargetRateValidation
+        {
+            get { return Resource.TargetRateValidation; }
+        }
+        public static string AmountLabel
+        {
+            get { return Resource.AmountLabel; }
+        }
+        public static string AmountPlaceHolder
+        {
+            get { return Resource.AmountPlaceHolder; }
+        }
+        public static string SourceRateLabel
+        {
+            get { return Resource.SourceRateLabel; }
+        }
+        public static string SourceRateTitle
+        {
+            get { return Resource.SourceRateTitle; }
+        }
+        public static string TargetRateLabel
+        {
+            get { return Resource.TargetRateLabel; }
+        }
+        public static string TargetRateTitle
+        {
+            get { return Resource.TargetRateTitle; }
+        }
+        public static string Convert
+        {
+            get { return Resource.Convert; }
+        }
+        public static string Loading
+        {
+            get { return Resource.Loading; }
+        }
+        public static string Ready
+        {
+            get { return Resource.Ready; }
+        }
+        public static string InternetSettings
+        {
+            get { return Resource.InternetSettings; }
+        }
+        public static string InternetConnection
+        {
+            get { return Resource.InternetConnection; }
+        }
+        public static string LocalDataResult
+        {
+            get { return Resource.LocalDataResult; }
+        }
+        public static string LocalDataStatus
+        {
+            get { return Resource.LocalDataStatus; }
+        }
+        public static string LocalDataNoLoaded
+        {
+            get { return Resource.LocalDataNoLoaded; }
+        }
+        public static string DataFromAPIStatus
+        {
+            get { return Resource.DataFromAPIStatus; }
+        }
     }
 }

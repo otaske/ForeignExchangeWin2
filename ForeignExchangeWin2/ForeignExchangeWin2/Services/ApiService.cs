@@ -1,6 +1,7 @@
 ﻿namespace ForeignExchangeWin2.Services
 {
-    using ForeignExchangeWin2.Models;
+    using Models;
+    using Helpers;
     using Newtonsoft.Json;
     using Plugin.Connectivity;
     using System;
@@ -17,7 +18,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "Check your internet settings.",
+                    Message = Lenguages.InternetSettings,
                 };
             }
 
@@ -27,7 +28,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "Check your internet connection.",
+                    Message = Lenguages.InternetConnection,
                 };
             }
 

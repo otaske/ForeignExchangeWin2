@@ -120,11 +120,65 @@
   <data name="Accept" xml:space="preserve">
     <value>Aceitar</value>
   </data>
+  <data name="AmountLabel" xml:space="preserve">
+    <value>Montante:</value>
+  </data>
+  <data name="AmountNumericValidation" xml:space="preserve">
+    <value>Você deve inserir um valor numérico em quantidade.</value>
+  </data>
+  <data name="AmountPlaceHolder" xml:space="preserve">
+    <value>Digite o montante...</value>
+  </data>
   <data name="AmountValidation" xml:space="preserve">
     <value>Você deve inserir um valor em quantidade.</value>
   </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Converter</value>
+  </data>
+  <data name="DataFromAPIStatus" xml:space="preserve">
+    <value>Tarifas carregadas da internet.</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Erro</value>
+  </data>
+  <data name="InternetConnection" xml:space="preserve">
+    <value>Verifique a sua conexão com a internet.</value>
+  </data>
+  <data name="InternetSettings" xml:space="preserve">
+    <value>Verifique suas configurações de internet.</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Taxas de carregamento...</value>
+  </data>
+  <data name="LocalDataNoLoaded" xml:space="preserve">
+    <value>Nenhuma taxa carregada.</value>
+  </data>
+  <data name="LocalDataResult" xml:space="preserve">
+    <value>Não há conexão à internet e não carregue taxas anteriores. Tente novamente com a conexão com a internet.</value>
+  </data>
+  <data name="LocalDataStatus" xml:space="preserve">
+    <value>Tarifas carregadas a partir de dados locais.</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Pronto para converter!</value>
+  </data>
+  <data name="SourceRateLabel" xml:space="preserve">
+    <value>Taxa de origem:</value>
+  </data>
+  <data name="SourceRateTitle" xml:space="preserve">
+    <value>Taxa de origem...</value>
+  </data>
+  <data name="SourceRateValidation" xml:space="preserve">
+    <value>Você deve selecionar uma taxa de origem.</value>
+  </data>
+  <data name="TargetRateLabel" xml:space="preserve">
+    <value>Taxa de destino:</value>
+  </data>
+  <data name="TargetRateTitle" xml:space="preserve">
+    <value>Taxa de destino...</value>
+  </data>
+  <data name="TargetRateValidation" xml:space="preserve">
+    <value>Você deve selecionar uma taxa de destino.</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Câmbio</value>

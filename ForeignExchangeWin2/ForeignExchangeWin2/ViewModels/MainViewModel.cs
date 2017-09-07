@@ -183,7 +183,7 @@
         async void LoadRates()
         {
             IsRunning = true;
-            Result = "Loading rates...";
+            Result = Lenguages.Loading;
 
             var connection = await apiService.CheckConnection();
             if (!connection.IsSuccess)
@@ -199,10 +199,8 @@
             {
                 IsRunning = false;
                 IsEnable = false;
-                Result = "There are not internet connection and not " +
-                    "load previously rates. Please try again with " +
-                    "internet connection.";
-                Status = "No rates loaded.";
+                Result = Lenguages.LocalDataResult;
+                Status = Lenguages.LocalDataNoLoaded;
                 return;
 
             }
@@ -211,13 +209,13 @@
 
             IsRunning = false;
             IsEnable = true;
-            Result = "Ready to convert!";
+            Result = Lenguages.Ready;
         }
 
         void LoadLocalData()
         {
             rates = dataService.Get<Rate>(false);
-            Status = "Rates loaded from local data.";
+            Status = Lenguages.LocalDataStatus;
         }
 
         async Task LoadDataFromAPI()
@@ -239,7 +237,7 @@
             dataService.DeleteAll<Rate>();
             dataService.Save(rates);
 
-            Status = "Rates loaded from internet.";
+            Status = Lenguages.DataFromAPIStatus;
         }
 
         #endregion
@@ -272,9 +270,10 @@
         {
             if (string.IsNullOrEmpty(Amount))
             {
-                await dialogService.ShowMessage(
+                await Application.Current.MainPage.DisplayAlert(
                     Lenguages.Error,
-                    Lenguages.AmountValidation); 
+                    Lenguages.AmountValidation,
+                    Lenguages.Accept); 
                 return;
             }
 
@@ -282,24 +281,24 @@
             if (!decimal.TryParse(Amount, out amount))
             {
                 await dialogService.ShowMessage(
-                    "Error",
-                    "You must enter a numeric value in amount.");
+                    Lenguages.Error,
+                    Lenguages.AmountNumericValidation);
                 return;
             }
 
             if (SourceRate == null)
             {
                 await dialogService.ShowMessage(
-                    "Error",
-                    "You must select a source rate.");
+                    Lenguages.Error,
+                    Lenguages.SourceRateValidation);
                 return;
             }
 
             if (TargetRate == null)
             {
                 await dialogService.ShowMessage(
-                    "Error",
-                    "You must select a target rate.");
+                    Lenguages.Error,
+                    Lenguages.TargetRateValidation);
                 return;
             }
 

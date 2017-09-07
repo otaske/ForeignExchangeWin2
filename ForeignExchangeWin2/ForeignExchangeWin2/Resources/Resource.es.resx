@@ -120,11 +120,65 @@
   <data name="Accept" xml:space="preserve">
     <value>Aceptar</value>
   </data>
+  <data name="AmountLabel" xml:space="preserve">
+    <value>Cantidad:</value>
+  </data>
+  <data name="AmountNumericValidation" xml:space="preserve">
+    <value>Debes ingresar un valor numérico en cantidad.</value>
+  </data>
+  <data name="AmountPlaceHolder" xml:space="preserve">
+    <value>Ingrese cantidad…</value>
+  </data>
   <data name="AmountValidation" xml:space="preserve">
     <value>Debes ingresar un valor en cantidad.</value>
   </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Convertir</value>
+  </data>
+  <data name="DataFromAPIStatus" xml:space="preserve">
+    <value>Tarifas cargadas desde internet.</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
+  </data>
+  <data name="InternetConnection" xml:space="preserve">
+    <value>Comprueba tu conexión a Internet.</value>
+  </data>
+  <data name="InternetSettings" xml:space="preserve">
+    <value>Compruebe su configuración de Internet.</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Cargando monedas…</value>
+  </data>
+  <data name="LocalDataNoLoaded" xml:space="preserve">
+    <value>No hay tarifas cargadas.</value>
+  </data>
+  <data name="LocalDataResult" xml:space="preserve">
+    <value>No hay conexión a Internet y no se cargan las tarifas previamente. Por favor, inténtelo de nuevo con conexión a Internet.</value>
+  </data>
+  <data name="LocalDataStatus" xml:space="preserve">
+    <value>Tasas cargadas desde los datos locales.</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>! Listo para convertir ¡</value>
+  </data>
+  <data name="SourceRateLabel" xml:space="preserve">
+    <value>Moneda origen:</value>
+  </data>
+  <data name="SourceRateTitle" xml:space="preserve">
+    <value>Moneda origen…</value>
+  </data>
+  <data name="SourceRateValidation" xml:space="preserve">
+    <value>Debes seleccionar una moneda origen.</value>
+  </data>
+  <data name="TargetRateLabel" xml:space="preserve">
+    <value>Moneda destino:</value>
+  </data>
+  <data name="TargetRateTitle" xml:space="preserve">
+    <value>Moneda destino…</value>
+  </data>
+  <data name="TargetRateValidation" xml:space="preserve">
+    <value>Debes seleccionar una moneda destino.</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Divisas</value>

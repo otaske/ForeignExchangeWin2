@@ -120,11 +120,65 @@
   <data name="Accept" xml:space="preserve">
     <value>Acceptez</value>
   </data>
+  <data name="AmountLabel" xml:space="preserve">
+    <value>Montant :</value>
+  </data>
+  <data name="AmountNumericValidation" xml:space="preserve">
+    <value>Vous devez entrer une valeur numérique en montant.</value>
+  </data>
+  <data name="AmountPlaceHolder" xml:space="preserve">
+    <value>Entrer le montant...</value>
+  </data>
   <data name="AmountValidation" xml:space="preserve">
     <value>Vous devez saisir une valeur en montant.</value>
   </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Convertir</value>
+  </data>
+  <data name="DataFromAPIStatus" xml:space="preserve">
+    <value>Tarifs chargés sur Internet.</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Erreur</value>
+  </data>
+  <data name="InternetConnection" xml:space="preserve">
+    <value>Vérifiez votre connection internet.</value>
+  </data>
+  <data name="InternetSettings" xml:space="preserve">
+    <value>Vérifiez vos paramètres Internet.</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Tarifs de chargement ...</value>
+  </data>
+  <data name="LocalDataNoLoaded" xml:space="preserve">
+    <value>Pas de tarifs chargés.</value>
+  </data>
+  <data name="LocalDataResult" xml:space="preserve">
+    <value>Il n'y a pas de connexion internet et ne charge pas les tarifs précédents. Veuillez réessayer avec la connexion Internet.</value>
+  </data>
+  <data name="LocalDataStatus" xml:space="preserve">
+    <value>Les taux sont chargés à partir des données locales.</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Prêt à convertir !</value>
+  </data>
+  <data name="SourceRateLabel" xml:space="preserve">
+    <value>Source Rate :</value>
+  </data>
+  <data name="SourceRateTitle" xml:space="preserve">
+    <value>Source rate...</value>
+  </data>
+  <data name="SourceRateValidation" xml:space="preserve">
+    <value>Vous devez sélectionner un taux source.</value>
+  </data>
+  <data name="TargetRateLabel" xml:space="preserve">
+    <value>Taux cible :</value>
+  </data>
+  <data name="TargetRateTitle" xml:space="preserve">
+    <value>Taux cible...</value>
+  </data>
+  <data name="TargetRateValidation" xml:space="preserve">
+    <value>Vous devez sélectionner un taux cible.</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Change de devises</value>
